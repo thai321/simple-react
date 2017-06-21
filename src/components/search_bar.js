@@ -8,7 +8,7 @@ class SearchBar extends Component {
   constructor(props) { // init of class
     super(props); // inherit from parant class Component
 
-    this.state = {term: 'Starting value'}; // starting value
+    this.state = {term: ''}; // starting value
   }
 
   render() {    // on - name of event = {reference to the method}
